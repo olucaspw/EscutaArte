@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Button.MainColor" parent="Widget.AppCompat.Button.Small">
+        <item name="backgroundTint">@color/highlight_main</item>
+    </style>
+
+    <style name="Button.Grey" parent="Widget.AppCompat.Button.Small">
+        <item name="backgroundTint">@color/highlight_secondary</item>
+    </style>
+
+    <style name="Button.White" parent="Widget.AppCompat.Button.Small">
+        <item name="backgroundTint">@color/white</item>
+        <item name="textFillColor">@color/black</item>
+    </style>
+
+    <style name="Button.Admin" parent="">
+        <item name="backgroundTint">#B0BDBDBD</item>
+    </style>
+
+    <style name="Button.Sound" parent="">
+        <item name="backgroundTint">@color/highlight_main</item>
+    </style>
+
+</resources>
