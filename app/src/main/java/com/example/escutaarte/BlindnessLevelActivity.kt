@@ -29,13 +29,13 @@ class BlindnessLevelActivity : AppCompatActivity() {
         )
 
         totalBlindButton.setOnMultiClickActions(
-            onSingleClick = {Toast.makeText(this@BlindnessLevelActivity, "Clique único", Toast.LENGTH_SHORT).show()},
+            onSingleClick = {},
             onDoubleClick = {
                 val totalBlindnessIntent: Intent = Intent(this, TotalBlindnessActivity::class.java)
                 startActivity(totalBlindnessIntent)
             },
-            onTripleClick = {Toast.makeText(this@BlindnessLevelActivity, "Clique triplo", Toast.LENGTH_SHORT).show()},
-            onHold = {Toast.makeText(this@BlindnessLevelActivity, "Segurada", Toast.LENGTH_SHORT).show()}
+            onTripleClick = {},
+            onHold = {Toast.makeText(this@BlindnessLevelActivity, "Hold", Toast.LENGTH_SHORT).show()}
         )
 
     }
